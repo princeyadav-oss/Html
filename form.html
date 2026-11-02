@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Forms</h1>
+        <form action="welcomepage.html" method="get" target="_blank">
+            <fieldset>
+                <legend>Enter your basic information</legend>
+                <br><br>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required>
+
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <br><br>
+                <label for="ageCheck">Are you 18+?</label>
+                <input type="checkbox" id="ageCheck" name="ageCheck" required>
+                <br><br>
+                <label for="phoneNumber">Enter your phone number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required
+                    minlength="0" maxlength="10">
+
+                <br><br>
+                <span>Gender:</span>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+
+                <br><br>
+                <label for="date">Enter your DOB:</label>
+                <input type="date" id="date" name="date" required>
+
+                <br><br>
+                <label for="file">Upload photo:</label>
+                <input type="file" id="file" name="photo" required>
+
+                <br><br>
+                <label for="city">Select your city:</label>
+                <select name="city" id="city">
+                    <option value="delhi">Delhi</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="noida">Noida</option>
+                    <option value="kolkata">Kolkata</option>
+                    <option value="jaipur">Jaipur</option>
+                    <option value="ghazipur">Ghazipur</option>
+                </select>
+
+                <br><br>
+                <button type="submit">Submit Form</button>
+                <br><br>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
